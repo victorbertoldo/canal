@@ -82,8 +82,17 @@ Pegue [aqui](./sql_source/) os arquivos para criação do ambiente da fonte de d
 Vamos iniciar o projeto dbt:
 
 ``` shell
-dbt init canal
+dbt init dbt_canal
 ```
+Vá até a pasta do projeto:
+
+``` shell
+cd dbt_canal
+``` 
+Para validar se está tudo funcionando:
+``` shell
+dbt debug
+``` 
 
 Configure os dados para conexão. Esta configuração irá gerar o arquivo `profiles.yml`
 
@@ -92,7 +101,7 @@ Se vc usa windows, vá até o executar e escreva os dados abaixo e de um `Enter`
 ``` shell
 %userprofile%\.dbt\
 ```
-Isso abrirá a pasta onde o arquivo profiles foi criado.
+Isso abrirá a pasta onde o arquivo profiles foi criado. Configure o arquivo de acordo com os seus dados de conexão.
 
-Após a configuração a pasta do projeto dbt já foi gerada e podemos começar a partir dai
+Após a configuração a pasta do projeto dbt já foi gerada e podemos começar a partir daqui.
 
