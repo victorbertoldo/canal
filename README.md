@@ -36,11 +36,11 @@ Agora vamos instalar o necessário para que o dbt funcione:
 
 
 ``` shell
-pip install dbt-core --user
+pip install dbt-core
 ```
 
 ``` shell
-pip install dbt-postgres --user
+pip install dbt-postgres
 ```
 
 Agora que instalamos o dbt, podemos ver o que está instalado no ambiente virtual, após a instalação:
