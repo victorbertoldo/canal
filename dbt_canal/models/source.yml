@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: legado
+    schema: public
+    tables:
+      - name: legado_compra
+        description: Tabela com dados de compra
+      - name: legado_conta
+      - name: legado_cliente
