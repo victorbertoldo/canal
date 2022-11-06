@@ -36,3 +36,11 @@ models:
     # Config indicated by + and applies to all files under models/example/
     caso_de_uso_1:
       +materialized: table
+
+seeds:
+  dbt_canal:
+    +schema: estatico
+    teste_seeds:
+      +column_types:
+        de: text
+        para: text
